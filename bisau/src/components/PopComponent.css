@@ -1,0 +1,27 @@
+.pop-component{
+    font-family: 'Roboto';
+    position: fixed;
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+    background: #fff;
+    z-index: 1999;
+    box-shadow: 0 -10px 80px #1b1b1b9d;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    animation-name: pop-component;
+    animation-duration: 0.5s;
+}
+
+@keyframes pop-component{
+    0%   {bottom: -100%}
+    100% {bottom: 0}
+}
+
+.drop-down {
+    bottom: -100vh;
+}
+
+.drop-down {
+    bottom: -100vh;
+}

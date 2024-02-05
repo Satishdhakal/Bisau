@@ -1,0 +1,92 @@
+.leaflet-container {
+  min-width: 100;
+}
+
+
+/* HIDE ROUTING ITERNARY */
+div.leaflet-routing-alternatives-container {
+  display: none !important;
+} 
+
+.leaflet-routing-container {
+  display: none;
+} 
+
+
+.map-input-ok-button {
+  position: fixed;
+  font-weight: 600;
+  font-size: 1.65em;
+  z-index: 3000;
+  bottom: 7em;
+  right: 1em;
+  padding: 1em;
+  border-radius: 50%;
+  border: 4px solid #1b1b1bfb;
+  background: #fead01;
+}
+
+.icons-space{
+  height: 6vh;
+}
+
+.leaflet-touch .leaflet-control-attribution{
+  display: none !important;
+}
+
+.class-book{
+  padding: 10px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: #fead01;
+  color: #1b1b1b;
+  font-weight: 600 !important;
+  font-size: 1.1em;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  bottom: 1vh;
+}
+
+.open-in-maps{
+  padding: 10px;
+  width: 50px;
+  cursor: pointer;
+  background-color: #fead01;
+  color: #1b1b1b;
+  font-size: 1.1em;
+  position: relative;
+  bottom: 1vh;
+  border-radius: 8px;
+  margin: 1px;
+}
+
+
+.car-all{
+  position: relative;
+  left: 15vh;
+  bottom: 7.5vh;
+}
+
+.icon-texts{
+  font-size: 18px;
+  position: fixed;
+  top: 32vh;
+}
+
+.icons-text-price{
+  font-size: 18px;
+  position: fixed;
+  top: 43vh;
+}
+
+.phone-class{
+  position: relative;
+  top: 10px;
+}
+
+.compound-image{
+  border-radius: 10px;
+}

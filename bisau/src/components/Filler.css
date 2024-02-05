@@ -1,0 +1,21 @@
+.filler{
+    pointer-events: none;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 500;
+    bottom: 0;
+}
+
+.filler > .top-gradient{
+    height: 125px;
+    background: linear-gradient(0deg, #f9f9f900 0%, #f9f9f9e3 46%, #f9f9f9 100%);
+}
+
+.filler > .bottom-gradient{
+    height: 125px;
+    background: linear-gradient(180deg, #f9f9f900 0%, #f9f9f93a 50%,  #f9f9f9 100%);
+}

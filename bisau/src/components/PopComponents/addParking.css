@@ -1,0 +1,107 @@
+.add-parking-spot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop-component-header {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.coordinate-select-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.coordinate-select-wrapper > button {
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #1b1b1b52;
+}
+
+.available-space-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.header-choose-vehicle {
+    font-size: 1.25em;
+    margin: 20px 0 0 0;
+    color: #1b1b1b;
+}
+
+.count-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.add-parking-spot .button-submit {
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: #fead01;
+    color: #1b1b1b;
+    font-weight: 600 !important;
+    font-size: 1.1em;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #1b1b1b52;
+}
+
+.add-parking-spot .button-submit:active {
+    box-shadow: 0 0px 0px #1b1b1b00;
+}
+
+.choose-input {
+    width: 60px; /* Adjust the width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #1b1b1b52;
+}
+
+.add-dollar {
+    padding-left: 10px; /* Adjust as needed */
+}
+
+/* Additional styles for improved visibility and clarity */
+.icon-bike,
+.icon-car {
+    margin-right: 5px;
+}
+
+.choose-location-value {
+    padding: 8px;
+}
+
+.image-upload{
+    position: absolute;
+    bottom: 35vh;
+    margin: auto;
+    text-align: center;
+    height: 10vh;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+.div-file-choose{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 11vh;
+    position: relative;
+    top: 4vh;
+    cursor: pointer;
+    
+}

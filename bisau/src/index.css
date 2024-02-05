@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+body{
+  background-color: #f9f9f9 !important;
+}
+
+.leaflet-popup {
+  padding-bottom: 40px; /* adjust as you see fit */
+}

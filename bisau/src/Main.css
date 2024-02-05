@@ -1,0 +1,40 @@
+.splashScreen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splashScreen > .logo-b{
+    width: 110px;
+    position: fixed;
+    transform: translate(18px, -70px);
+    
+}
+
+.splashScreen > .logo-f{
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(25deg);
+    animation-name: vroom;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vroom{
+    0%{
+        bottom: -100px;
+        left: -100px;
+        overflow-y: hidden;
+    }
+    100%{
+        transform: rotate(0deg);
+        bottom: 50%;
+        left: 50%;
+        overflow-y: hidden;
+    }
+}
